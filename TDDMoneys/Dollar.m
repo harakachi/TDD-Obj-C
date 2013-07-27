@@ -12,16 +12,16 @@
 
 - (id)initWithAmount:(int)amount
 {
-    if([super init])
-    {
-        _amount = 10;
+    self = [super init];
+    if(self) {
+        _amount = amount;
     }
     return self;
 }
 
 - (void)times:(int)multiplier
 {
-    
+    _amount *= multiplier;
 }
 
 @end

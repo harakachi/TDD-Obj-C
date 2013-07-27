@@ -10,7 +10,7 @@
 
 @interface Dollar : NSObject
 
-@property int amount;
+@property (nonatomic) int amount;
 
 - (id)initWithAmount:(int)amount;
 - (void)times:(int)multiplier;
