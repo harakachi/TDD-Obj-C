@@ -19,9 +19,9 @@
     return self;
 }
 
-- (void)times:(int)multiplier
+- (id)times:(int)multiplier
 {
-    _amount *= multiplier;
+    return [[Dollar alloc] initWithAmount:(_amount * multiplier)];
 }
 
 @end

@@ -28,8 +28,11 @@
 - (void)testMultiplication
 {
     Dollar *five = [[Dollar alloc] initWithAmount:5];
-    [five times:2];
-    STAssertEquals([five amount], 10, @"aaaaa");
+    Dollar *product = [five times:2];
+    STAssertEquals([product amount], 10, @"aaaaa");
+    
+    product = [five times:3];
+    STAssertEquals([product amount], 15, @"aaaaa");
 }
 
 @end

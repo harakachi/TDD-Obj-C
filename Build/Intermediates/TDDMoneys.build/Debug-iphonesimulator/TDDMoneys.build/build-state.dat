@@ -10,9 +10,9 @@ cCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.bu
 cCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/ViewController.o /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys normal i386
 cGenerateDSYMFile /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys
-cCopyStringsFile /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/en.lproj/InfoPlist.strings TDDMoneys/en.lproj/InfoPlist.strings
-cCpResource TDDMoneys/Default@2x.png Build/Products/Debug-iphonesimulator/TDDMoneys.app/Default@2x.png
 cCpResource TDDMoneys/Default.png Build/Products/Debug-iphonesimulator/TDDMoneys.app/Default.png
+cCpResource TDDMoneys/Default@2x.png Build/Products/Debug-iphonesimulator/TDDMoneys.app/Default@2x.png
+cCopyStringsFile /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/en.lproj/InfoPlist.strings TDDMoneys/en.lproj/InfoPlist.strings
 cCpResource TDDMoneys/Default-568h@2x.png Build/Products/Debug-iphonesimulator/TDDMoneys.app/Default-568h@2x.png
 cCompileXIB /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/en.lproj/ViewController.xib
 cTouch /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app
@@ -61,8 +61,8 @@ t1374910040
 s89884
 
 N/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.o
-t1374968374
-s6896
+t1374989779
+s7184
 
 N/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/TDDMoneys.LinkFileList
 c0000000051F37840000000000000023B
@@ -78,11 +78,11 @@ t1374910040
 s3276
 
 N/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app
-t1374968374
+t1374989779
 s306
 
 N/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM
-t1374968374
+t1374989779
 s102
 
 N/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/Default-568h@2x.png
@@ -106,8 +106,8 @@ t1374910040
 s8
 
 N/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys
-t1374968374
-s22884
+t1374989779
+s22968
 
 N/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/en.lproj/InfoPlist.strings
 t1374910040
@@ -143,14 +143,14 @@ t1365024354
 s16107
 
 N/Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.h
-c0000000051F458B6000000000000013A
-t1374967990
-s314
+c0000000051F4AD4B0000000000000138
+t1374989643
+s312
 
 N/Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.m
-c0000000051F45A4F000000000000017E
-t1374968399
-s382
+c0000000051F4AE0900000000000001A4
+t1374989833
+s420
 
 N/Users/harada/Desktop/work/TDDMoneys/TDDMoneys/TDDMoneys-Prefix.pch
 c0000000051F3764A0000000000000141
@@ -204,7 +204,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfc1c07d091a4b741^adbd07d091a4b741^---0#1#0#--18"Check dependencies36"54B322B8-AEAA-4E3D-B8C4-088A520D1E79-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9948d189e5a4b741^0de0d189e5a4b741^---0#1#0#--18"Check dependencies36"01F35E1A-3D6F-4A53-8EC3-1BD92F4E02BF-
 
 CCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/AppDelegate.o /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s396602840.520586
@@ -220,8 +220,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/AppDelegate.mc57085d8ada3b741^fe65a7d8ada3b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/harada/Desktop/work/TDDMoneys/TDDMoneys/AppDelegate.m0000000000000000^3603"CompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/AppDelegate.o TDDMoneys/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/TDDMoneys    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-generated-files.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-own-target-headers.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-all-target-headers.hmap -iquote /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-project-headers.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/DerivedSources/i386 -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/DerivedSources -F/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/PrecompiledHeaders/TDDMoneys-Prefix-gyuochbvaaroinflzcqlrrvrpfrd/TDDMoneys-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/AppDelegate.dia -c /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/AppDelegate.m -o /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/AppDelegate.o36"12BB7A53-DAAC-4984-979B-889ED043B9DF-
 
 CCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.o /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396661200.052116
-e396661200.099723
+s396682633.856350
+e396682633.905858
 r1
 xCompileC
 xBuild/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.o
@@ -230,7 +230,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.mfb730dd091a4b741^b9e319d091a4b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.m0000000000000000^3573"CompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.o TDDMoneys/Dollar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/TDDMoneys    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-generated-files.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-own-target-headers.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-all-target-headers.hmap -iquote /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-project-headers.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/DerivedSources/i386 -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/DerivedSources -F/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/PrecompiledHeaders/TDDMoneys-Prefix-gyuochbvaaroinflzcqlrrvrpfrd/TDDMoneys-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.d --serialize-diagnostics /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.dia -c /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.m -o /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.o36"155C8BBA-6C2E-451B-8930-471CE860F5BD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.m7d58db89e5a4b741^dae5e789e5a4b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.m0000000000000000^3573"CompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.o TDDMoneys/Dollar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/TDDMoneys    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-generated-files.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-own-target-headers.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-all-target-headers.hmap -iquote /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/TDDMoneys-project-headers.hmap -I/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/DerivedSources/i386 -I/Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/DerivedSources -F/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/PrecompiledHeaders/TDDMoneys-Prefix-gyuochbvaaroinflzcqlrrvrpfrd/TDDMoneys-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.d --serialize-diagnostics /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.dia -c /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.m -o /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/Dollar.o36"9380E43B-CB1F-4AF3-A0BC-6B9EC745B27E-
 
 CCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/ViewController.o /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s396602840.520688
@@ -303,23 +303,23 @@ xBuild/Products/Debug-iphonesimulator/TDDMoneys.app/Default@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/TDDMoneys.app/Default@2x.png4b23ead8ada3b741^c1feebd8ada3b741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/Default@2x.png000000000080d041^609"CpResource "TDDMoneys/Default@2x.png" "Build/Products/Debug-iphonesimulator/TDDMoneys.app/Default@2x.png"    cd /Users/harada/Desktop/work/TDDMoneys    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Default@2x.png" /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app36"078C760C-7B09-47D8-99FA-FAA125B9A383-
 
 CGenerateDSYMFile /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys
-s396661200.159803
-e396661200.211010
+s396682633.968749
+e396682634.009836
 r1
 xGenerateDSYMFile
 x/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM
 x/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generate /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYMea062ad091a4b741^f6f035d091a4b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM/0000000000000000^667"GenerateDSYMFile Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys    cd /Users/harada/Desktop/work/TDDMoneys    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys -o /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM36"B8F4FA9B-A476-46E6-A981-C48E1B9E1DD7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generate /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM8b16f889e5a4b741^2784028ae5a4b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM/0000000000000000^667"GenerateDSYMFile Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys    cd /Users/harada/Desktop/work/TDDMoneys    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys -o /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app.dSYM36"741C928A-6CDA-40DD-9853-43B24F9ECC8C-
 
 CLd /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys normal i386
-s396661200.110053
-e396661200.152974
+s396682633.912324
+e396682633.961335
 r1
 xLd
 x/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneysc85d1cd091a4b741^d42927d091a4b741^---0#0#0#--1201"Ld Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys normal i386    cd /Users/harada/Desktop/work/TDDMoneys    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator -F/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/TDDMoneys.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys36"C2E5CF56-C10A-4B8B-8F69-C8C804131507-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneysf986ea89e5a4b741^eb19f689e5a4b741^---0#0#0#--1201"Ld Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys normal i386    cd /Users/harada/Desktop/work/TDDMoneys    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator -F/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/TDDMoneys/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/TDDMoneys.build/Objects-normal/i386/TDDMoneys.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/TDDMoneys36"16AE92F1-8F41-41C8-AC52-D00C90E894DE-
 
 CProcessInfoPlistFile /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app/Info.plist TDDMoneys/TDDMoneys-Info.plist
 s396602840.112104
@@ -347,10 +347,10 @@ CProcessPCH /Users/harada/Library/Developer/Xcode/DerivedData/TDDMoneys-hdgtsadz
 r0
 
 CTouch /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app
-s396661200.232257
-e396661200.253960
+s396682634.041004
+e396682634.056534
 r1
 xTouch
 x/Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app16c13bd091a4b741^530341d091a4b741^---0#0#0#--406"Touch Build/Products/Debug-iphonesimulator/TDDMoneys.app    cd /Users/harada/Desktop/work/TDDMoneys    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app36"843100F5-3108-4968-81FD-1F7F152F398B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.appbd8c0a8ae5a4b741^8e780e8ae5a4b741^---0#0#0#--406"Touch Build/Products/Debug-iphonesimulator/TDDMoneys.app    cd /Users/harada/Desktop/work/TDDMoneys    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harada/Desktop/work/TDDMoneys/Build/Products/Debug-iphonesimulator/TDDMoneys.app36"7C987FBE-27D3-4591-8910-959C61EDDD87-
 

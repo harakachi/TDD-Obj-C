@@ -13,6 +13,6 @@
 @property (nonatomic) int amount;
 
 - (id)initWithAmount:(int)amount;
-- (void)times:(int)multiplier;
+- (id)times:(int)multiplier;
 
 @end
