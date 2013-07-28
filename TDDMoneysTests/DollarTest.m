@@ -35,4 +35,11 @@
     STAssertEquals([product amount], 15, @"aaaaa");
 }
 
+- (void) testEquality
+{
+    Dollar *five = [[Dollar alloc] initWithAmount:5];
+    STAssertTrue([five equals:[[Dollar alloc] initWithAmount:5]], @"NG object");
+    STAssertFalse([five equals:[[Dollar alloc] initWithAmount:6]], @"NG object");
+}
+
 @end

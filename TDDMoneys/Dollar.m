@@ -24,5 +24,11 @@
     return [[Dollar alloc] initWithAmount:(_amount * multiplier)];
 }
 
+- (BOOL)equals:(id)object
+{
+    Dollar *dollar = object;
+    return _amount == [dollar amount];
+}
+
 @end
 

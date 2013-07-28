@@ -14,5 +14,5 @@
 
 - (id)initWithAmount:(int)amount;
 - (id)times:(int)multiplier;
-
+- (BOOL)equals:(id)object;
 @end
