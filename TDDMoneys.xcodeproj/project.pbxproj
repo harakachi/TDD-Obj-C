@@ -28,6 +28,9 @@
 		73688AD917A60200005FA0F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */; };
 		73688ADA17A604A4005FA0F1 /* Dollar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C817A3AFB7002CCE41 /* Dollar.m */; };
 		73688ADD17A60509005FA0F1 /* DollarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688ADC17A60509005FA0F1 /* DollarTest.m */; };
+		73688AE317A64454005FA0F1 /* Franc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE217A64454005FA0F1 /* Franc.m */; };
+		73688AE617A64599005FA0F1 /* FrancTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE517A64599005FA0F1 /* FrancTest.m */; };
+		73688AE717A645DB005FA0F1 /* Franc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE217A64454005FA0F1 /* Franc.m */; };
 		73796AF217A5FF9500D2EE5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7320C58917A3ADCA002CCE41 /* UIKit.framework */; };
 		73796AF317A5FF9500D2EE5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7320C58B17A3ADCA002CCE41 /* Foundation.framework */; };
 		73796AF417A5FF9500D2EE5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7320C58D17A3ADCA002CCE41 /* CoreGraphics.framework */; };
@@ -79,6 +82,10 @@
 		7320C5C817A3AFB7002CCE41 /* Dollar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dollar.m; sourceTree = "<group>"; };
 		73688ADB17A60509005FA0F1 /* DollarTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarTest.h; sourceTree = "<group>"; };
 		73688ADC17A60509005FA0F1 /* DollarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarTest.m; sourceTree = "<group>"; };
+		73688AE117A64454005FA0F1 /* Franc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Franc.h; sourceTree = "<group>"; };
+		73688AE217A64454005FA0F1 /* Franc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Franc.m; sourceTree = "<group>"; };
+		73688AE417A64599005FA0F1 /* FrancTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrancTest.h; sourceTree = "<group>"; };
+		73688AE517A64599005FA0F1 /* FrancTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrancTest.m; sourceTree = "<group>"; };
 		73796AF117A5FF9500D2EE5A /* GHUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73796AF717A5FF9500D2EE5A /* GHUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTest-Info.plist"; sourceTree = "<group>"; };
 		73796AF917A5FF9500D2EE5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -169,6 +176,8 @@
 			children = (
 				7320C5C717A3AFB7002CCE41 /* Dollar.h */,
 				7320C5C817A3AFB7002CCE41 /* Dollar.m */,
+				73688AE117A64454005FA0F1 /* Franc.h */,
+				73688AE217A64454005FA0F1 /* Franc.m */,
 				7320C59817A3ADCB002CCE41 /* AppDelegate.h */,
 				7320C59917A3ADCB002CCE41 /* AppDelegate.m */,
 				7320C5A117A3ADCB002CCE41 /* ViewController.h */,
@@ -217,6 +226,8 @@
 		73796AF517A5FF9500D2EE5A /* GHUnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				73688AE417A64599005FA0F1 /* FrancTest.h */,
+				73688AE517A64599005FA0F1 /* FrancTest.m */,
 				73688ADB17A60509005FA0F1 /* DollarTest.h */,
 				73688ADC17A60509005FA0F1 /* DollarTest.m */,
 				73796AF617A5FF9500D2EE5A /* Supporting Files */,
@@ -413,6 +424,7 @@
 				7320C59A17A3ADCB002CCE41 /* AppDelegate.m in Sources */,
 				7320C5A317A3ADCB002CCE41 /* ViewController.m in Sources */,
 				7320C5C917A3AFB7002CCE41 /* Dollar.m in Sources */,
+				73688AE317A64454005FA0F1 /* Franc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +444,8 @@
 				73796AFC17A5FF9500D2EE5A /* main.m in Sources */,
 				73688ADA17A604A4005FA0F1 /* Dollar.m in Sources */,
 				73688ADD17A60509005FA0F1 /* DollarTest.m in Sources */,
+				73688AE617A64599005FA0F1 /* FrancTest.m in Sources */,
+				73688AE717A645DB005FA0F1 /* Franc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

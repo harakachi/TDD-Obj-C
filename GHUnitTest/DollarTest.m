@@ -14,8 +14,8 @@
 - (void)testMultiplication
 {
     Dollar *five = [[Dollar alloc] initWithAmount:5];
-    GHAssertTrue([[[Dollar alloc] initWithAmount:10] equals:[five times:2]], nil);
-    GHAssertTrue([[[Dollar alloc] initWithAmount:15] equals:[five times:3]], nil);
+    GHAssertEquals([[[Dollar alloc] initWithAmount:10] amount], [[five times:2] amount], nil);
+    GHAssertEquals([[[Dollar alloc] initWithAmount:15] amount], [[five times:3] amount], nil);
 }
 
 - (void) testEquality

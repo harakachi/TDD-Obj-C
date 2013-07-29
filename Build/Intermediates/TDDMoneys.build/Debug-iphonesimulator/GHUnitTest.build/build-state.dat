@@ -5,14 +5,16 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/Info.plist GHUnitTest/GHUnitTest-Info.plist
 cPhaseScriptExecution "Check Pods Manifest.lock" /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-89305D6A7C964357815A2651.sh
 cProcessPCH /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/PrecompiledHeaders/GHUnitTest-Prefix-dwxtujcwjrxowmcqjuggdzgdtpth/GHUnitTest-Prefix.pch.pth GHUnitTest/GHUnitTest-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Franc.o /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Dollar.o /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Dollar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.o /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/main.o /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/FrancTest.o /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest normal i386
 cGenerateDSYMFile /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest
-cCopyStringsFile /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/en.lproj/InfoPlist.strings GHUnitTest/en.lproj/InfoPlist.strings
-cCpResource GHUnitTest/Default.png Build/Products/Debug-iphonesimulator/GHUnitTest.app/Default.png
 cCpResource GHUnitTest/Default@2x.png Build/Products/Debug-iphonesimulator/GHUnitTest.app/Default@2x.png
+cCpResource GHUnitTest/Default.png Build/Products/Debug-iphonesimulator/GHUnitTest.app/Default.png
+cCopyStringsFile /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/en.lproj/InfoPlist.strings GHUnitTest/en.lproj/InfoPlist.strings
 cCpResource GHUnitTest/Default-568h@2x.png Build/Products/Debug-iphonesimulator/GHUnitTest.app/Default-568h@2x.png
 cPhaseScriptExecution "Copy Pods Resources" /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-059D321BB1EC41DAB4D8C51F.sh
 cTouch /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app
@@ -62,17 +64,25 @@ t1375062290
 s4678364
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Dollar.o
-t2
-s0
+t1375078171
+s8052
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.o
-t1375075454
-s11228
+t1375078171
+s11304
+
+N/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Franc.o
+t1375080030
+s8024
+
+N/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/FrancTest.o
+t1375080198
+s12668
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/GHUnitTest.LinkFileList
-c0000000051F5CDC400000000000001A9
-t1375063492
-s425
+c0000000051F60E5E00000000000002C5
+t1375080030
+s709
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/main.o
 t1375062290
@@ -89,11 +99,11 @@ t1375062290
 s259
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app
-t1375075250
+t1375080199
 s306
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM
-t1375075250
+t1375080199
 s102
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/Default-568h@2x.png
@@ -109,8 +119,8 @@ t1375062662
 s16107
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest
-t1375075250
-s336208
+t1375080199
+s346056
 
 N/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/Info.plist
 t1375062290
@@ -150,9 +160,19 @@ t1375063432
 s212
 
 N/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m
-c0000000051F5F2D100000000000002CF
-t1375072977
-s719
+c0000000051F60F3F00000000000002E7
+t1375080255
+s743
+
+N/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.h
+c0000000051F60C5B00000000000000D2
+t1375079515
+s210
+
+N/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.m
+c0000000051F60F1E00000000000001EB
+t1375080222
+s491
 
 N/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/GHUnitTest-Prefix.pch
 c0000000051F5C8150000000000000143
@@ -212,6 +232,16 @@ c0000000051F6071B0000000000000212
 t1375078171
 s530
 
+N/Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.h
+c0000000051F60F4E0000000000000135
+t1375080270
+s309
+
+N/Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.m
+c0000000051F60F4E000000000000019F
+t1375080270
+s415
+
 NGHUnitTest/GHUnitTest-Info.plist
 c0000000051F5C815000000000000048B
 t1375062037
@@ -220,15 +250,21 @@ s1163
 CBuild AST from /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m
 r0
 
+CBuild AST from /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.m
+r0
+
 CBuild AST from /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/main.m
 r0
 
 CBuild AST from /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Dollar.m
 r0
 
+CBuild AST from /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.m
+r0
+
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb4cc829b3ea6b741^e486839b3ea6b741^---0#1#0#--18"Check dependencies36"04FD6A61-7214-4E4B-B686-1DCD11FB2F64-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6ff257ce46a6b741^1a3058ce46a6b741^---0#1#0#--18"Check dependencies36"2CE4C09A-7683-4888-8EBA-0E0512F20853-
 
 CCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Dollar.o /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Dollar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s396770971.584692
@@ -244,8 +280,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Dollar.m1de8959b3ea6b741^1e4ea89b3ea6b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Dollar.m0000000000000000^3617"CompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Dollar.o TDDMoneys/Dollar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-generated-files.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-own-target-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-all-target-headers.hmap -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-project-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources/i386 -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources -F/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/PrecompiledHeaders/GHUnitTest-Prefix-dwxtujcwjrxowmcqjuggdzgdtpth/GHUnitTest-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Dollar.d --serialize-diagnostics /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Dollar.dia -c /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Dollar.m -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Dollar.o36"D2C6608A-B8D2-485C-A096-9F38C294C57F-
 
 CCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.o /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396770971.584711
-e396770971.656318
+s396773070.402876
+e396773070.510227
 r1
 xCompileC
 xBuild/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.o
@@ -254,7 +290,33 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m75e7959b3ea6b741^5551a89b3ea6b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m0000000000000000^3643"CompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.o GHUnitTest/DollarTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-generated-files.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-own-target-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-all-target-headers.hmap -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-project-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources/i386 -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources -F/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/PrecompiledHeaders/GHUnitTest-Prefix-dwxtujcwjrxowmcqjuggdzgdtpth/GHUnitTest-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.d --serialize-diagnostics /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.dia -c /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.o36"4AC36B34-C7D8-41AD-A8A8-CC27D19AB169-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m4d4867ce46a6b741^069f82ce46a6b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m0000000000000000^3643"CompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.o GHUnitTest/DollarTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-generated-files.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-own-target-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-all-target-headers.hmap -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-project-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources/i386 -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources -F/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/PrecompiledHeaders/GHUnitTest-Prefix-dwxtujcwjrxowmcqjuggdzgdtpth/GHUnitTest-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.d --serialize-diagnostics /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.dia -c /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/DollarTest.m -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/DollarTest.o36"748105DB-5BF5-40A3-8F41-4569F41F9E94-
+
+CCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Franc.o /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396773070.402707
+e396773070.476406
+r1
+xCompileC
+xBuild/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Franc.o
+x/Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.m9a3e67ce46a6b741^bef579ce46a6b741^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.m0000000000000000^3611"CompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Franc.o TDDMoneys/Franc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-generated-files.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-own-target-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-all-target-headers.hmap -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-project-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources/i386 -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources -F/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/PrecompiledHeaders/GHUnitTest-Prefix-dwxtujcwjrxowmcqjuggdzgdtpth/GHUnitTest-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Franc.d --serialize-diagnostics /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Franc.dia -c /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Franc.m -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/Franc.o36"DE0D9CEB-48D6-4547-8716-7E573652FE6B-
+
+CCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/FrancTest.o /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396773070.404023
+e396773070.492913
+r1
+xCompileC
+xBuild/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/FrancTest.o
+x/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.mc34a69ce46a6b741^cf2f7ece46a6b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.m0000000000000000^3637"CompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/FrancTest.o GHUnitTest/FrancTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-generated-files.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-own-target-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-all-target-headers.hmap -iquote /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/GHUnitTest-project-headers.hmap -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers -I/Users/harada/Desktop/work/TDD-Obj-C/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources/i386 -I/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/DerivedSources -F/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/PrecompiledHeaders/GHUnitTest-Prefix-dwxtujcwjrxowmcqjuggdzgdtpth/GHUnitTest-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/FrancTest.d --serialize-diagnostics /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/FrancTest.dia -c /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/FrancTest.m -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/FrancTest.o36"1FE063A5-D072-4153-B98F-18D512ECC26A-
 
 CCompileC Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/main.o /Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s396755090.730090
@@ -306,36 +368,36 @@ xBuild/Products/Debug-iphonesimulator/GHUnitTest.app/Default@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphonesimulator/GHUnitTest.app/Default@2x.png3eb4cf0602a6b741^6b9dd00602a6b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/Default@2x.png000000000080d041^792"CpResource "GHUnitTest/Default@2x.png" "Build/Products/Debug-iphonesimulator/GHUnitTest.app/Default@2x.png"    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harada/Desktop/work/TDD-Obj-C/GHUnitTest/Default@2x.png" /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app36"1DE98E50-5AFB-4B3A-8F9B-F9AA67BA6B0B-
 
 CGenerateDSYMFile /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest
-s396770971.745711
-e396770971.813057
+s396773070.579241
+e396773070.653384
 r1
 xGenerateDSYMFile
 x/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM
 x/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Generate /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM2affbe9b3ea6b741^1c24d09b3ea6b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM/0000000000000000^852"GenerateDSYMFile Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM36"FB0354D8-ADA2-4582-B752-92063CB1D5AC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Generate /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM4e6294ce46a6b741^e943a7ce46a6b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM/0000000000000000^852"GenerateDSYMFile Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app.dSYM36"D95152FB-9824-4AF1-B300-746EF0225913-
 
 CLd /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest normal i386
-s396770971.663200
-e396770971.738711
+s396773070.517284
+e396773070.572731
 r1
 xLd
 x/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTestafeda99b3ea6b741^e71bbd9b3ea6b741^---0#0#0#--1442"Ld Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest normal i386    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -F/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/GHUnitTest.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -all_load -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -lPods-GHUnitTest -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest36"DB6F9DB6-F450-4876-834F-2AFF2A308D41-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTesta08d84ce46a6b741^fa5e97ce46a6b741^---0#0#0#--1442"Ld Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest normal i386    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -F/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Objects-normal/i386/GHUnitTest.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -all_load -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -lPods-GHUnitTest -o /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/GHUnitTest36"2A6CD908-7230-411D-96D3-781D85E34ECC-
 
 CPhaseScriptExecution "Check Pods Manifest.lock" /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-89305D6A7C964357815A2651.sh
-s396770971.538225
-e396770971.568341
+s396773070.357221
+e396773070.387909
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-89305D6A7C964357815A2651.sh
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'06808a9b3ea6b741^137e919b3ea6b741^---0#0#0#--364"PhaseScriptExecution "Check Pods Manifest.lock" Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-89305D6A7C964357815A2651.sh    cd /Users/harada/Desktop/work/TDD-Obj-C    /bin/sh -c /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-89305D6A7C964357815A2651.sh36"14E0CAE9-C557-4BF3-B95B-FA7378C130C9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'8f385cce46a6b741^359664ce46a6b741^---0#0#0#--364"PhaseScriptExecution "Check Pods Manifest.lock" Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-89305D6A7C964357815A2651.sh    cd /Users/harada/Desktop/work/TDD-Obj-C    /bin/sh -c /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-89305D6A7C964357815A2651.sh36"42AA0B4B-6C54-405B-8D77-AFA0864A381B-
 
 CPhaseScriptExecution "Copy Pods Resources" /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-059D321BB1EC41DAB4D8C51F.sh
-s396770971.830448
-e396770971.915506
+s396773070.669338
+e396773070.760091
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
@@ -344,7 +406,7 @@ obuilding file list ... done
 o
 osent 29 bytes  received 20 bytes  98.00 bytes/sec
 ototal size is 0  speedup is 0.00
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'793cd59b3ea6b741^8d5dea9b3ea6b741^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-396770971#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-396770971#29#50#-0#-----2@33"total size is 0  speedup is 0.00-396770971#79#33#-0#-----0#0#0#--359"PhaseScriptExecution "Copy Pods Resources" Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-059D321BB1EC41DAB4D8C51F.sh    cd /Users/harada/Desktop/work/TDD-Obj-C    /bin/sh -c /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-059D321BB1EC41DAB4D8C51F.sh36"04A4925E-4E3C-4003-AEF8-82BBB4BFEED0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'ca17acce46a6b741^cd94c2ce46a6b741^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-396773070#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-396773070#29#50#-0#-----2@33"total size is 0  speedup is 0.00-396773070#79#33#-0#-----0#0#0#--359"PhaseScriptExecution "Copy Pods Resources" Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-059D321BB1EC41DAB4D8C51F.sh    cd /Users/harada/Desktop/work/TDD-Obj-C    /bin/sh -c /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/TDDMoneys.build/Debug-iphonesimulator/GHUnitTest.build/Script-059D321BB1EC41DAB4D8C51F.sh36"18A03960-3B54-44F2-BF8B-3FEA2618B1CB-
 
 CProcessInfoPlistFile /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app/Info.plist GHUnitTest/GHUnitTest-Info.plist
 s396755090.378011
@@ -372,10 +434,10 @@ CProcessPCH /Users/harada/Library/Developer/Xcode/DerivedData/TDDMoneys-fvzyzzky
 r0
 
 CTouch /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app
-s396770971.923962
-e396770971.938577
+s396773070.768148
+e396773070.785369
 r1
 xTouch
 x/Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Touch /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app2fa3ec9b3ea6b741^7446f09b3ea6b741^---0#0#0#--587"Touch Build/Products/Debug-iphonesimulator/GHUnitTest.app    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app36"77E44165-CC0C-427F-8B0D-C408618EDCEF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Touch /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app38c0c4ce46a6b741^f10dc9ce46a6b741^---0#0#0#--587"Touch Build/Products/Debug-iphonesimulator/GHUnitTest.app    cd /Users/harada/Desktop/work/TDD-Obj-C    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/harada/Desktop/work/TDD-Obj-C/Build/Products/Debug-iphonesimulator/GHUnitTest.app36"00F0407D-6D1F-499C-8ECC-2F360FCCD3D0-
 
