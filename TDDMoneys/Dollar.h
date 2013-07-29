@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Money.h"
 
-@interface Dollar : NSObject
+@interface Dollar : Money
 
-@property (nonatomic) int amount;
+//@property (nonatomic) int amount;
 
 - (id)initWithAmount:(int)amount;
 - (id)times:(int)multiplier;
-- (BOOL)equals:(id)object;
 
 @end

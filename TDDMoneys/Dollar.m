@@ -8,28 +8,23 @@
 
 #import "Dollar.h"
 
-
 @implementation Dollar
 
 - (id)initWithAmount:(int)amount
 {
     self = [super init];
     if(self) {
-        _amount = amount;
+        [self setAmount:amount];
     }
     return self;
 }
 
 - (id)times:(int)multiplier
 {
-    return [[Dollar alloc] initWithAmount:(_amount * multiplier)];
+    return [[Dollar alloc] initWithAmount:([self amount] * multiplier)];
 }
 
-- (BOOL)equals:(id)object
-{
-    Dollar *dollar = (Dollar *)object;
-    return _amount == [dollar amount];
-}
+
 
 @end
 

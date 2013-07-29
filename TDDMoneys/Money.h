@@ -1,5 +1,5 @@
 //
-//  Franc.h
+//  Money.h
 //  TDDMoneys
 //
 //  Created by 原田 勝信 on 2013/07/29.
@@ -7,13 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Money.h"
 
-@interface Franc : Money
+@interface Money : NSObject
 
 @property (nonatomic) int amount;
 
-- (id)initWithAmount:(int)amount;
-- (id)times:(int)multiplier;
+- (BOOL)equals:(id)object;
 
 @end

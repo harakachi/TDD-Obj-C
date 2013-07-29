@@ -14,14 +14,14 @@
 {
     self = [super init];
     if(self) {
-        _amount = amount;
+        [self setAmount:amount];
     }
     return self;
 }
 
 - (id)times:(int)multiplier
 {
-    return [[Franc alloc] initWithAmount:(_amount * multiplier)];
+    return [[Franc alloc] initWithAmount:([self amount] * multiplier)];
 }
 
 @end
