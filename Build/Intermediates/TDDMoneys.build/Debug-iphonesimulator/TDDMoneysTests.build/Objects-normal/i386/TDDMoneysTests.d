@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/harada/Desktop/work/TDDMoneys/TDDMoneysTests/TDDMoneysTests.m \
-  /Users/harada/Desktop/work/TDDMoneys/TDDMoneysTests/TDDMoneysTests.h \
+  /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneysTests/TDDMoneysTests.m \
+  /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneysTests/TDDMoneysTests.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDefines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTest.h \

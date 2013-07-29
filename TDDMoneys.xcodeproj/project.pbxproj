@@ -25,6 +25,19 @@
 		7320C5BB17A3ADCB002CCE41 /* TDDMoneysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5BA17A3ADCB002CCE41 /* TDDMoneysTests.m */; };
 		7320C5C617A3AE55002CCE41 /* DollarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C517A3AE55002CCE41 /* DollarTest.m */; };
 		7320C5C917A3AFB7002CCE41 /* Dollar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C817A3AFB7002CCE41 /* Dollar.m */; };
+		73688AD917A60200005FA0F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */; };
+		73688ADA17A604A4005FA0F1 /* Dollar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C817A3AFB7002CCE41 /* Dollar.m */; };
+		73688ADD17A60509005FA0F1 /* DollarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688ADC17A60509005FA0F1 /* DollarTest.m */; };
+		73796AF217A5FF9500D2EE5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7320C58917A3ADCA002CCE41 /* UIKit.framework */; };
+		73796AF317A5FF9500D2EE5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7320C58B17A3ADCA002CCE41 /* Foundation.framework */; };
+		73796AF417A5FF9500D2EE5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7320C58D17A3ADCA002CCE41 /* CoreGraphics.framework */; };
+		73796AFA17A5FF9500D2EE5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73796AF817A5FF9500D2EE5A /* InfoPlist.strings */; };
+		73796AFC17A5FF9500D2EE5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73796AFB17A5FF9500D2EE5A /* main.m */; };
+		73796B0217A5FF9500D2EE5A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 73796B0117A5FF9500D2EE5A /* Default.png */; };
+		73796B0417A5FF9500D2EE5A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73796B0317A5FF9500D2EE5A /* Default@2x.png */; };
+		73796B0617A5FF9500D2EE5A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73796B0517A5FF9500D2EE5A /* Default-568h@2x.png */; };
+		73796B0B17A5FFCE00D2EE5A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */; };
+		B48B03FBE1194F41853DD2A3 /* libPods-GHUnitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEE75C50327464AB1DD444D /* libPods-GHUnitTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +77,19 @@
 		7320C5C517A3AE55002CCE41 /* DollarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarTest.m; sourceTree = "<group>"; };
 		7320C5C717A3AFB7002CCE41 /* Dollar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dollar.h; sourceTree = "<group>"; };
 		7320C5C817A3AFB7002CCE41 /* Dollar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dollar.m; sourceTree = "<group>"; };
+		73688ADB17A60509005FA0F1 /* DollarTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarTest.h; sourceTree = "<group>"; };
+		73688ADC17A60509005FA0F1 /* DollarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarTest.m; sourceTree = "<group>"; };
+		73796AF117A5FF9500D2EE5A /* GHUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73796AF717A5FF9500D2EE5A /* GHUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTest-Info.plist"; sourceTree = "<group>"; };
+		73796AF917A5FF9500D2EE5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73796AFB17A5FF9500D2EE5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73796AFD17A5FF9500D2EE5A /* GHUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		73796B0117A5FF9500D2EE5A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		73796B0317A5FF9500D2EE5A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		73796B0517A5FF9500D2EE5A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADA91FE574774A30849AF84D /* Pods-GHUnitTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHUnitTest.xcconfig"; path = "Pods/Pods-GHUnitTest.xcconfig"; sourceTree = SOURCE_ROOT; };
+		BAEE75C50327464AB1DD444D /* libPods-GHUnitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHUnitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73796B0B17A5FFCE00D2EE5A /* QuartzCore.framework in Frameworks */,
 				7320C58A17A3ADCA002CCE41 /* UIKit.framework in Frameworks */,
 				7320C58C17A3ADCA002CCE41 /* Foundation.framework in Frameworks */,
 				7320C58E17A3ADCA002CCE41 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +114,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73796AEE17A5FF9500D2EE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73688AD917A60200005FA0F1 /* QuartzCore.framework in Frameworks */,
+				73796AF217A5FF9500D2EE5A /* UIKit.framework in Frameworks */,
+				73796AF317A5FF9500D2EE5A /* Foundation.framework in Frameworks */,
+				73796AF417A5FF9500D2EE5A /* CoreGraphics.framework in Frameworks */,
+				B48B03FBE1194F41853DD2A3 /* libPods-GHUnitTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,8 +134,10 @@
 			children = (
 				7320C58F17A3ADCA002CCE41 /* TDDMoneys */,
 				7320C5B317A3ADCB002CCE41 /* TDDMoneysTests */,
+				73796AF517A5FF9500D2EE5A /* GHUnitTest */,
 				7320C58817A3ADCA002CCE41 /* Frameworks */,
 				7320C58717A3ADCA002CCE41 /* Products */,
+				ADA91FE574774A30849AF84D /* Pods-GHUnitTest.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +146,7 @@
 			children = (
 				7320C58617A3ADCA002CCE41 /* TDDMoneys.app */,
 				7320C5AC17A3ADCB002CCE41 /* TDDMoneysTests.octest */,
+				73796AF117A5FF9500D2EE5A /* GHUnitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,10 +154,12 @@
 		7320C58817A3ADCA002CCE41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */,
 				7320C58917A3ADCA002CCE41 /* UIKit.framework */,
 				7320C58B17A3ADCA002CCE41 /* Foundation.framework */,
 				7320C58D17A3ADCA002CCE41 /* CoreGraphics.framework */,
 				7320C5AD17A3ADCB002CCE41 /* SenTestingKit.framework */,
+				BAEE75C50327464AB1DD444D /* libPods-GHUnitTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,6 +214,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		73796AF517A5FF9500D2EE5A /* GHUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				73688ADB17A60509005FA0F1 /* DollarTest.h */,
+				73688ADC17A60509005FA0F1 /* DollarTest.m */,
+				73796AF617A5FF9500D2EE5A /* Supporting Files */,
+			);
+			path = GHUnitTest;
+			sourceTree = "<group>";
+		};
+		73796AF617A5FF9500D2EE5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73796AF717A5FF9500D2EE5A /* GHUnitTest-Info.plist */,
+				73796AF817A5FF9500D2EE5A /* InfoPlist.strings */,
+				73796AFB17A5FF9500D2EE5A /* main.m */,
+				73796AFD17A5FF9500D2EE5A /* GHUnitTest-Prefix.pch */,
+				73796B0117A5FF9500D2EE5A /* Default.png */,
+				73796B0317A5FF9500D2EE5A /* Default@2x.png */,
+				73796B0517A5FF9500D2EE5A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,6 +277,25 @@
 			productReference = 7320C5AC17A3ADCB002CCE41 /* TDDMoneysTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		73796AF017A5FF9500D2EE5A /* GHUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73796B0917A5FF9500D2EE5A /* Build configuration list for PBXNativeTarget "GHUnitTest" */;
+			buildPhases = (
+				89305D6A7C964357815A2651 /* Check Pods Manifest.lock */,
+				73796AED17A5FF9500D2EE5A /* Sources */,
+				73796AEE17A5FF9500D2EE5A /* Frameworks */,
+				73796AEF17A5FF9500D2EE5A /* Resources */,
+				059D321BB1EC41DAB4D8C51F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHUnitTest;
+			productName = GHUnitTest;
+			productReference = 73796AF117A5FF9500D2EE5A /* GHUnitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,6 +319,7 @@
 			targets = (
 				7320C58517A3ADCA002CCE41 /* TDDMoneys */,
 				7320C5AB17A3ADCB002CCE41 /* TDDMoneysTests */,
+				73796AF017A5FF9500D2EE5A /* GHUnitTest */,
 			);
 		};
 /* End PBXProject section */
@@ -257,9 +345,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73796AEF17A5FF9500D2EE5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73796AFA17A5FF9500D2EE5A /* InfoPlist.strings in Resources */,
+				73796B0217A5FF9500D2EE5A /* Default.png in Resources */,
+				73796B0417A5FF9500D2EE5A /* Default@2x.png in Resources */,
+				73796B0617A5FF9500D2EE5A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		059D321BB1EC41DAB4D8C51F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GHUnitTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7320C5AA17A3ADCB002CCE41 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,6 +386,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		89305D6A7C964357815A2651 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -293,6 +422,16 @@
 			files = (
 				7320C5BB17A3ADCB002CCE41 /* TDDMoneysTests.m in Sources */,
 				7320C5C617A3AE55002CCE41 /* DollarTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73796AED17A5FF9500D2EE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73796AFC17A5FF9500D2EE5A /* main.m in Sources */,
+				73688ADA17A604A4005FA0F1 /* Dollar.m in Sources */,
+				73688ADD17A60509005FA0F1 /* DollarTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +466,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				7320C5B717A3ADCB002CCE41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73796AF817A5FF9500D2EE5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73796AF917A5FF9500D2EE5A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -446,6 +593,40 @@
 			};
 			name = Release;
 		};
+		73796B0717A5FF9500D2EE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA91FE574774A30849AF84D /* Pods-GHUnitTest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTest/GHUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTest/GHUnitTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73796B0817A5FF9500D2EE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA91FE574774A30849AF84D /* Pods-GHUnitTest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTest/GHUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTest/GHUnitTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +646,7 @@
 				7320C5C017A3ADCB002CCE41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7320C5C117A3ADCB002CCE41 /* Build configuration list for PBXNativeTarget "TDDMoneysTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +655,16 @@
 				7320C5C317A3ADCB002CCE41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73796B0917A5FF9500D2EE5A /* Build configuration list for PBXNativeTarget "GHUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73796B0717A5FF9500D2EE5A /* Debug */,
+				73796B0817A5FF9500D2EE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

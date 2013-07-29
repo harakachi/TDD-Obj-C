@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/harada/Desktop/work/TDDMoneys/TDDMoneysTests/DollarTest.m \
-  /Users/harada/Desktop/work/TDDMoneys/TDDMoneysTests/DollarTest.h \
+  /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneysTests/DollarTest.m \
+  /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneysTests/DollarTest.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDefines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTest.h \
@@ -17,4 +17,4 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCaseRun.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenInterfaceTestCase.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestProbe.h \
-  /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/Dollar.h
+  /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/Dollar.h

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GHUnitTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TDDMoneys.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>7320C5AB17A3ADCB002CCE41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73796AF017A5FF9500D2EE5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

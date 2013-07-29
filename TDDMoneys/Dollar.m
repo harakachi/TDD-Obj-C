@@ -14,7 +14,7 @@
 {
     self = [super init];
     if(self) {
-        _amount = amount;
+        [self setAmount:amount];
     }
     return self;
 }

@@ -1,2 +1,2 @@
-dependencies: /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/main.m \
-  /Users/harada/Desktop/work/TDDMoneys/TDDMoneys/AppDelegate.h
+dependencies: /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/main.m \
+  /Users/harada/Desktop/work/TDD-Obj-C/TDDMoneys/AppDelegate.h
