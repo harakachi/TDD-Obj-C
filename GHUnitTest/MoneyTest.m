@@ -21,6 +21,7 @@
     GHAssertTrue( [[[Franc alloc] initWithAmount:5] equals:[[Franc alloc] initWithAmount:5]], nil);
     GHAssertFalse([[[Franc alloc] initWithAmount:5] equals:[[Franc alloc] initWithAmount:6]], nil);
     
+    GHAssertFalse([[[Franc alloc] initWithAmount:5] equals:[[Dollar alloc] initWithAmount:5]], nil);
 }
 
 @end

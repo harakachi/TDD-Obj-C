@@ -12,8 +12,11 @@
 
 - (BOOL)equals:(id)object
 {
-    Money *money = (Money *)object;
-    return [self amount] == [money amount];
+    Money *money = object;
+    
+    NSString *classA = NSStringFromClass([self class]);
+    NSString *classB = NSStringFromClass([money class]);
+    return ([self amount] == [money amount]) && [classA isEqualToString:classB];
 }
 
 @end
