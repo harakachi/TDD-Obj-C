@@ -12,6 +12,12 @@
 
 @property (nonatomic) int amount;
 
++ (id)dollar:(int)amount;
++ (id)franc:(int)amount;
+
 - (BOOL)equals:(id)object;
+
+// abstruct method
+- (id)times:(int)multiplier;
 
 @end

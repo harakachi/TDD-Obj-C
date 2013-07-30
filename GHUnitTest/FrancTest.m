@@ -7,15 +7,15 @@
 //
 
 #import "FrancTest.h"
-#import "Franc.h"
+#import "Money.h"
 
 @implementation FrancTest
 
 - (void)testMultiplication
 {
-    Franc *five = [[Franc alloc] initWithAmount:5];
-    GHAssertEquals([[[Franc alloc] initWithAmount:10] amount], [[five times:2] amount], nil);
-    GHAssertEquals([[[Franc alloc] initWithAmount:15] amount], [[five times:3] amount], nil);
+    Money *five = [Money franc:5];
+    GHAssertEquals([[Money franc:10] amount], [[five times:2] amount], nil);
+    GHAssertEquals([[Money franc:15] amount], [[five times:3] amount], nil);
 }
 
 @end

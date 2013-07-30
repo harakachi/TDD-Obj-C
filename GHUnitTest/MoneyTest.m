@@ -8,20 +8,17 @@
 
 #import "MoneyTest.h"
 #import "Money.h"
-#import "Dollar.h"
-#import "Franc.h"
 
 @implementation MoneyTest
 
 - (void) testEquality
 {
-    GHAssertTrue( [[[Dollar alloc] initWithAmount:5] equals:[[Dollar alloc] initWithAmount:5]], nil);
-    GHAssertFalse([[[Dollar alloc] initWithAmount:5] equals:[[Dollar alloc] initWithAmount:6]], nil);
+    GHAssertTrue( [[Money dollar:5] equals:[Money dollar:5]], @"NG object");
+    GHAssertFalse([[Money dollar:5] equals:[Money dollar:6]], @"NG object");
+    GHAssertTrue( [[Money franc:5] equals:[Money franc:5]], @"NG object");
+    GHAssertFalse([[Money franc:5] equals:[Money franc:6]], @"NG object");
     
-    GHAssertTrue( [[[Franc alloc] initWithAmount:5] equals:[[Franc alloc] initWithAmount:5]], nil);
-    GHAssertFalse([[[Franc alloc] initWithAmount:5] equals:[[Franc alloc] initWithAmount:6]], nil);
-    
-    GHAssertFalse([[[Franc alloc] initWithAmount:5] equals:[[Dollar alloc] initWithAmount:5]], nil);
+    GHAssertFalse([[Money franc:5] equals:[Money dollar:5]], nil);
 }
 
 @end
