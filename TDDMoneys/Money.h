@@ -9,13 +9,19 @@
 #import <Foundation/Foundation.h>
 
 @interface Money : NSObject
+{
+    NSString *_currency;
+    int       _amount;
+}
 
-@property (nonatomic) int amount;
+- (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
+- (int)amount;
+- (id)currency;
+- (BOOL)equals:(id)object;
 
 + (id)dollar:(int)amount;
 + (id)franc:(int)amount;
 
-- (BOOL)equals:(id)object;
 
 // abstruct method
 - (id)times:(int)multiplier;

@@ -10,18 +10,16 @@
 
 @implementation Franc
 
-- (id)initWithAmount:(int)amount
+- (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency
 {
-    self = [super init];
-    if(self) {
-        [self setAmount:amount];
-    }
-    return self;
+    return [super initWithAmountAndCurrency:amount :currency];
 }
 
 - (id)times:(int)multiplier
 {
-    return [[Franc alloc] initWithAmount:([self amount] * multiplier)];
+    return [Money franc:(_amount * multiplier)];
 }
+
+
 
 @end

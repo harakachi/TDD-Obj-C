@@ -12,13 +12,31 @@
 
 @implementation Money
 
+- (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency
+{
+    self = [super init];
+    if(self) {
+        _amount   = amount;
+        _currency = currency;
+    }
+    return self;
+}
+
 + (id)dollar:(int)amount
 {
-    return [[Dollar alloc] initWithAmount:amount];
+    return [[Dollar alloc] initWithAmountAndCurrency:amount:@"USD"];
 }
 + (id)franc:(int)amount
 {
-    return [[Franc alloc] initWithAmount:amount];
+    return [[Franc alloc] initWithAmountAndCurrency:amount:@"CHF"];
+}
+- (id)currency
+{
+    return _currency;
+}
+- (int)amount
+{
+    return _amount;
 }
 
 - (BOOL)equals:(id)object
@@ -27,12 +45,11 @@
     
     NSString *classA = NSStringFromClass([self class]);
     NSString *classB = NSStringFromClass([money class]);
-    return ([self amount] == [money amount]) && [classA isEqualToString:classB];
+    return (_amount == [money amount]) && [classA isEqualToString:classB];
 }
 
 // abstruct method
 - (id)times:(int)multiplier{
 }
-
 
 @end

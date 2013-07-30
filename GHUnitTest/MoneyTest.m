@@ -20,5 +20,10 @@
     
     GHAssertFalse([[Money franc:5] equals:[Money dollar:5]], nil);
 }
+- (void)testCurrency
+{
+    GHAssertEquals(@"USD", [[Money dollar:1] currency], nil);
+    GHAssertEquals(@"CHF", [[Money  franc:1] currency], nil);
+}
 
 @end

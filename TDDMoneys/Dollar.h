@@ -11,9 +11,7 @@
 
 @interface Dollar : Money
 
-//@property (nonatomic) int amount;
-
-- (id)initWithAmount:(int)amount;
+- (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
 - (id)times:(int)multiplier;
 
 @end
