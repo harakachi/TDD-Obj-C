@@ -24,13 +24,7 @@
 		7320C5B817A3ADCB002CCE41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7320C5B617A3ADCB002CCE41 /* InfoPlist.strings */; };
 		7320C5BB17A3ADCB002CCE41 /* TDDMoneysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5BA17A3ADCB002CCE41 /* TDDMoneysTests.m */; };
 		7320C5C617A3AE55002CCE41 /* DollarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C517A3AE55002CCE41 /* DollarTest.m */; };
-		7320C5C917A3AFB7002CCE41 /* Dollar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C817A3AFB7002CCE41 /* Dollar.m */; };
 		73688AD917A60200005FA0F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */; };
-		73688ADA17A604A4005FA0F1 /* Dollar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C817A3AFB7002CCE41 /* Dollar.m */; };
-		73688ADD17A60509005FA0F1 /* DollarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688ADC17A60509005FA0F1 /* DollarTest.m */; };
-		73688AE317A64454005FA0F1 /* Franc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE217A64454005FA0F1 /* Franc.m */; };
-		73688AE617A64599005FA0F1 /* FrancTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE517A64599005FA0F1 /* FrancTest.m */; };
-		73688AE717A645DB005FA0F1 /* Franc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE217A64454005FA0F1 /* Franc.m */; };
 		73688AEA17A6494A005FA0F1 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE917A6494A005FA0F1 /* Money.m */; };
 		73688AEB17A64990005FA0F1 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE917A6494A005FA0F1 /* Money.m */; };
 		73688AEE17A64C56005FA0F1 /* MoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AED17A64C56005FA0F1 /* MoneyTest.m */; };
@@ -81,14 +75,6 @@
 		7320C5BA17A3ADCB002CCE41 /* TDDMoneysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDMoneysTests.m; sourceTree = "<group>"; };
 		7320C5C417A3AE55002CCE41 /* DollarTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarTest.h; sourceTree = "<group>"; };
 		7320C5C517A3AE55002CCE41 /* DollarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarTest.m; sourceTree = "<group>"; };
-		7320C5C717A3AFB7002CCE41 /* Dollar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dollar.h; sourceTree = "<group>"; };
-		7320C5C817A3AFB7002CCE41 /* Dollar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dollar.m; sourceTree = "<group>"; };
-		73688ADB17A60509005FA0F1 /* DollarTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarTest.h; sourceTree = "<group>"; };
-		73688ADC17A60509005FA0F1 /* DollarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarTest.m; sourceTree = "<group>"; };
-		73688AE117A64454005FA0F1 /* Franc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Franc.h; sourceTree = "<group>"; };
-		73688AE217A64454005FA0F1 /* Franc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Franc.m; sourceTree = "<group>"; };
-		73688AE417A64599005FA0F1 /* FrancTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrancTest.h; sourceTree = "<group>"; };
-		73688AE517A64599005FA0F1 /* FrancTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrancTest.m; sourceTree = "<group>"; };
 		73688AE817A6494A005FA0F1 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
 		73688AE917A6494A005FA0F1 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
 		73688AEC17A64C56005FA0F1 /* MoneyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyTest.h; sourceTree = "<group>"; };
@@ -183,10 +169,6 @@
 			children = (
 				73688AE817A6494A005FA0F1 /* Money.h */,
 				73688AE917A6494A005FA0F1 /* Money.m */,
-				7320C5C717A3AFB7002CCE41 /* Dollar.h */,
-				7320C5C817A3AFB7002CCE41 /* Dollar.m */,
-				73688AE117A64454005FA0F1 /* Franc.h */,
-				73688AE217A64454005FA0F1 /* Franc.m */,
 				7320C59817A3ADCB002CCE41 /* AppDelegate.h */,
 				7320C59917A3ADCB002CCE41 /* AppDelegate.m */,
 				7320C5A117A3ADCB002CCE41 /* ViewController.h */,
@@ -237,10 +219,6 @@
 			children = (
 				73688AEC17A64C56005FA0F1 /* MoneyTest.h */,
 				73688AED17A64C56005FA0F1 /* MoneyTest.m */,
-				73688AE417A64599005FA0F1 /* FrancTest.h */,
-				73688AE517A64599005FA0F1 /* FrancTest.m */,
-				73688ADB17A60509005FA0F1 /* DollarTest.h */,
-				73688ADC17A60509005FA0F1 /* DollarTest.m */,
 				73796AF617A5FF9500D2EE5A /* Supporting Files */,
 			);
 			path = GHUnitTest;
@@ -434,8 +412,6 @@
 				7320C59617A3ADCA002CCE41 /* main.m in Sources */,
 				7320C59A17A3ADCB002CCE41 /* AppDelegate.m in Sources */,
 				7320C5A317A3ADCB002CCE41 /* ViewController.m in Sources */,
-				7320C5C917A3AFB7002CCE41 /* Dollar.m in Sources */,
-				73688AE317A64454005FA0F1 /* Franc.m in Sources */,
 				73688AEA17A6494A005FA0F1 /* Money.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,10 +430,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				73796AFC17A5FF9500D2EE5A /* main.m in Sources */,
-				73688ADA17A604A4005FA0F1 /* Dollar.m in Sources */,
-				73688ADD17A60509005FA0F1 /* DollarTest.m in Sources */,
-				73688AE617A64599005FA0F1 /* FrancTest.m in Sources */,
-				73688AE717A645DB005FA0F1 /* Franc.m in Sources */,
 				73688AEB17A64990005FA0F1 /* Money.m in Sources */,
 				73688AEE17A64C56005FA0F1 /* MoneyTest.m in Sources */,
 			);

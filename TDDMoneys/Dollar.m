@@ -15,10 +15,5 @@
     return [super initWithAmountAndCurrency:amount :currency];
 }
 
-- (id)times:(int)multiplier
-{
-    return [Money dollar:(_amount * multiplier)];
-}
-
 @end
 

@@ -12,6 +12,5 @@
 @interface Franc : Money
 
 - (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
-- (id)times:(int)multiplier;
 
 @end

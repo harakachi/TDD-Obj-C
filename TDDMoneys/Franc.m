@@ -15,11 +15,4 @@
     return [super initWithAmountAndCurrency:amount :currency];
 }
 
-- (id)times:(int)multiplier
-{
-    return [Money franc:(_amount * multiplier)];
-}
-
-
-
 @end

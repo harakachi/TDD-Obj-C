@@ -7,8 +7,6 @@
 //
 
 #import "Money.h"
-#import "Dollar.h"
-#import "Franc.h"
 
 @implementation Money
 
@@ -24,11 +22,11 @@
 
 + (id)dollar:(int)amount
 {
-    return [[Dollar alloc] initWithAmountAndCurrency:amount:@"USD"];
+    return [[Money alloc] initWithAmountAndCurrency:amount:@"USD"];
 }
 + (id)franc:(int)amount
 {
-    return [[Franc alloc] initWithAmountAndCurrency:amount:@"CHF"];
+    return [[Money alloc] initWithAmountAndCurrency:amount:@"CHF"];
 }
 - (id)currency
 {
@@ -42,14 +40,12 @@
 - (BOOL)equals:(id)object
 {
     Money *money = object;
-    
-    NSString *classA = NSStringFromClass([self class]);
-    NSString *classB = NSStringFromClass([money class]);
-    return (_amount == [money amount]) && [classA isEqualToString:classB];
+    return (_amount == [money amount]) && (_currency == [money currency]);
 }
 
 // abstruct method
 - (id)times:(int)multiplier{
+    return [[Money alloc] initWithAmountAndCurrency:_amount * multiplier :_currency];
 }
 
 @end
