@@ -24,6 +24,8 @@
 		7320C5B817A3ADCB002CCE41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7320C5B617A3ADCB002CCE41 /* InfoPlist.strings */; };
 		7320C5BB17A3ADCB002CCE41 /* TDDMoneysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5BA17A3ADCB002CCE41 /* TDDMoneysTests.m */; };
 		7320C5C617A3AE55002CCE41 /* DollarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C517A3AE55002CCE41 /* DollarTest.m */; };
+		7326092917AFA4DE00106F6E /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326092817AFA4DE00106F6E /* Pair.m */; };
+		7326092A17AFA4E100106F6E /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326092817AFA4DE00106F6E /* Pair.m */; };
 		73688AD917A60200005FA0F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */; };
 		73688AEA17A6494A005FA0F1 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE917A6494A005FA0F1 /* Money.m */; };
 		73688AEB17A64990005FA0F1 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE917A6494A005FA0F1 /* Money.m */; };
@@ -81,6 +83,8 @@
 		7320C5BA17A3ADCB002CCE41 /* TDDMoneysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDMoneysTests.m; sourceTree = "<group>"; };
 		7320C5C417A3AE55002CCE41 /* DollarTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarTest.h; sourceTree = "<group>"; };
 		7320C5C517A3AE55002CCE41 /* DollarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarTest.m; sourceTree = "<group>"; };
+		7326092717AFA4DE00106F6E /* Pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pair.h; sourceTree = "<group>"; };
+		7326092817AFA4DE00106F6E /* Pair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pair.m; sourceTree = "<group>"; };
 		73688AE817A6494A005FA0F1 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
 		73688AE917A6494A005FA0F1 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
 		73688AEC17A64C56005FA0F1 /* MoneyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyTest.h; sourceTree = "<group>"; };
@@ -187,6 +191,8 @@
 				737E085917AF6E600060F48C /* Sum.m */,
 				739279D117AF66C0002CC521 /* Bank.h */,
 				739279D217AF66C0002CC521 /* Bank.m */,
+				7326092717AFA4DE00106F6E /* Pair.h */,
+				7326092817AFA4DE00106F6E /* Pair.m */,
 				7320C59817A3ADCB002CCE41 /* AppDelegate.h */,
 				7320C59917A3ADCB002CCE41 /* AppDelegate.m */,
 				7320C5A117A3ADCB002CCE41 /* ViewController.h */,
@@ -434,6 +440,7 @@
 				739279CF17AF665B002CC521 /* Expression.m in Sources */,
 				739279D317AF66C0002CC521 /* Bank.m in Sources */,
 				737E085A17AF6E600060F48C /* Sum.m in Sources */,
+				7326092917AFA4DE00106F6E /* Pair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +463,7 @@
 				739279D017AF665E002CC521 /* Expression.m in Sources */,
 				739279D417AF66C5002CC521 /* Bank.m in Sources */,
 				737E085B17AF6E620060F48C /* Sum.m in Sources */,
+				7326092A17AFA4E100106F6E /* Pair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

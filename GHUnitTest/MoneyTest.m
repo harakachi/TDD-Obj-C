@@ -60,15 +60,21 @@
     GHAssertTrue([[Money dollar:1] equals:result], nil);
 }
 
-/*
 - (void)testReduceMoneyDifferentCurrency
 {
     Bank *bank = [[Bank alloc] init];
-    [bank addRate:@"CHF", @"USD", 2];
+    [bank addRate:@"CHF" :@"USD" :[NSNumber numberWithInt:2]];
     Money *result = [bank reduce:[Money franc:2] :@"USD"];
     GHAssertTrue([[Money dollar:1] equals:result], nil);
 }
- */
+- (void)testReduceRate
+{
+    Bank *bank = [[Bank alloc] init];
+    [bank addRate:@"CHF" :@"USD" :[NSNumber numberWithInt:2]];
+    
+    GHAssertEquals([bank rate:@"USD" :@"USD"], 1, nil);
+    GHAssertEquals([bank rate:@"CHF" :@"USD"], 2, nil);
+}
 
 /*
 - (void)testDifferentClassEquality

@@ -17,10 +17,13 @@
     return [[Money alloc] initWithAmountAndCurrency:amount :to];
 }
 
-- (Sum *)initWithAugendAndAddend:(id)augend :(id)addend
+- (Expression *)initWithAugendAndAddend:(id)augend :(id)addend
 {
-    _augend = augend;
-    _addend = addend;
+    self = [super init];
+    if(self) {
+        _augend = augend;
+        _addend = addend;
+    }
     return self;
 }
 

@@ -16,7 +16,7 @@
     Money *_addend;
 }
 
-- (Sum *)initWithAugendAndAddend:(id)augend :(id)addend;
+- (Expression *)initWithAugendAndAddend:(id)augend :(id)addend;
 - (Money *)augend;
 - (Money *)addend;
 

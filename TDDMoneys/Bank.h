@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Bank : NSObject
+{
+    NSMutableDictionary *_rates;
+}
 
 - (id)reduce:(id)source :(NSString *)to;
 - (int)rate:(NSString *)from :(NSString *)to;
-//- (void)addRate:(NSString *)from :(NSString *)to :int rate;
+- (void)addRate:(NSString *)from :(NSString *)to :(NSNumber *)rate;
 @end
 

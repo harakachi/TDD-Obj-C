@@ -19,6 +19,11 @@
     return [[Money alloc] initWithAmountAndCurrency:(_amount / rate) :to];
 }
 
+- (Expression *)plus:(id)addend
+{
+    return [[Sum alloc] initWithAugendAndAddend:self :addend];
+}
+
 - (Money *)initWithAmountAndCurrency:(int)amount :(NSString *)currency
 {
     self = [super init];
@@ -51,10 +56,7 @@
     Money *money = object;
     return (_amount == [money amount]) && (_currency == [money currency]);
 }
-- (Expression *)plus:(id)addend
-{
-    return [[Sum alloc] initWithAugendAndAddend:self :addend];
-}
+
 // abstruct method
 - (Money *)times:(int)multiplier{
     return [[Money alloc] initWithAmountAndCurrency:_amount * multiplier :_currency];

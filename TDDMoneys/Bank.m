@@ -6,10 +6,18 @@
 //  Copyright (c) 2013年 原田 勝信. All rights reserved.
 //
 
-#import "Bank.h"
 #import "Expression.h"
+#import "Bank.h"
 
 @implementation Bank
+
+- (Bank *)init
+{
+    if([super init]) {
+        _rates = [[NSMutableDictionary alloc] init];
+    }
+    return self;
+}
 
 - (id)reduce:(id)source :(NSString *)to
 {
@@ -18,7 +26,17 @@
 
 - (int)rate:(NSString *)from :(NSString *)to
 {
-    return ([from isEqualToString:@"CHF"] && [to isEqualToString:@"USD"]) ? 2 : 1;
+    if ([from isEqualToString:to]) {
+        return 1;
+    }
+    
+    NSNumber *rate = [_rates objectForKey:[from stringByAppendingString:to]];
+    return [rate intValue];
+}
+
+- (void)addRate:(NSString *)from :(NSString *)to :(NSNumber *)rate
+{
+    [_rates setObject:rate forKey:[from stringByAppendingString:to]];
 }
 @end
 
