@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface Money : NSObject
 {
     NSString *_currency;
@@ -16,7 +17,7 @@
 
 - (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
 - (id)currency;
-- (id)plus:(id)object;
+- (id)plus:(id)addend;
 - (int)amount;
 - (BOOL)equals:(id)object;
 

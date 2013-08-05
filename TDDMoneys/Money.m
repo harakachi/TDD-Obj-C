@@ -7,9 +7,14 @@
 //
 
 #import "Money.h"
-#import "Expression.h"
+#import "Sum.h"
 
 @implementation Money
+
+- (id)reduce:(id)to
+{
+    return self;
+}
 
 - (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency
 {
@@ -43,10 +48,9 @@
     Money *money = object;
     return (_amount == [money amount]) && (_currency == [money currency]);
 }
-- (id)plus:(id)object
+- (id)plus:(id)addend
 {
-    Money *money = object;
-    return [[Money alloc] initWithAmountAndCurrency:_amount + [money amount] :_currency];
+    return [[Sum alloc] initWithAugendAndAddend:self :addend];
 }
 // abstruct method
 - (id)times:(int)multiplier{

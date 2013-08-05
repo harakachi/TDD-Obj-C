@@ -8,12 +8,13 @@
 
 #import "Bank.h"
 #import "Money.h"
+#import "Sum.h"
 
 @implementation Bank
 
 - (id)reduce:(id)source :(id)to
 {
-    return [Money dollar:10];
+    return [source reduce:to];
 }
 @end
 

@@ -10,6 +10,7 @@
 #import "Money.h"
 #import "Expression.h"
 #import "Bank.h"
+#import "Sum.h"
 
 @implementation MoneyTest
 
@@ -36,7 +37,28 @@
     GHAssertTrue([[Money dollar:10] equals:reduced], nil);
 }
 
+- (void)testPlusReturnsSum{
+    Money *five = [Money dollar:5];
+    Expression *result = [five plus:five];
+    Sum *sum = (Sum *)result;
+    GHAssertTrue([five equals:[sum augend]], nil);
+    GHAssertTrue([five equals:[sum addend]], nil);
+}
 
+- (void)testReduceSum
+{
+    Expression *sum = [[Sum alloc] initWithAugendAndAddend:[Money dollar:3] :[Money dollar:4]];
+    Bank *bank = [[Bank alloc] init];
+    Money *result = [bank reduce:sum :@"USD"];
+    GHAssertTrue([[Money dollar:7] equals:result], nil);
+}
+
+- (void)testReduceMoney
+{
+    Bank *bank = [[Bank alloc] init];
+    Money *result = [bank reduce:[Money dollar:1] :@"USD"];
+    GHAssertTrue([[Money dollar:1] equals:result], nil);
+}
 /*
 - (void)testDifferentClassEquality
 {
