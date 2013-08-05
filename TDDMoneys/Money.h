@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Expression.h"
 
-
-@interface Money : NSObject
+@interface Money : Expression
 {
     NSString *_currency;
     int       _amount;
@@ -17,15 +17,12 @@
 
 - (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
 - (id)currency;
-- (id)plus:(id)addend;
 - (int)amount;
+- (id)plus:(id)addend;
+- (id)times:(int)multiplier;
 - (BOOL)equals:(id)object;
 
 + (id)dollar:(int)amount;
 + (id)franc:(int)amount;
-
-
-// abstruct method
-- (id)times:(int)multiplier;
 
 @end

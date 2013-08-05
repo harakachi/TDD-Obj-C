@@ -6,7 +6,6 @@
 //  Copyright (c) 2013年 原田 勝信. All rights reserved.
 //
 
-/*
 #import "Expression.h"
 
 @implementation Expression
@@ -17,4 +16,3 @@
 }
 
 @end
-*/

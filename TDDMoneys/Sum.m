@@ -10,17 +10,18 @@
 
 @implementation Sum
 
+// Expression : override
+- (id)reduce:(id)to
+{
+    int amount = [_augend amount] + [_addend amount];
+    return [[Money alloc] initWithAmountAndCurrency:amount :to];
+}
+
 - (id)initWithAugendAndAddend:(id)augend :(id)addend
 {
     _augend = augend;
     _addend = addend;
     return self;
-}
-
-- (id)reduce:(id)to
-{
-    int amount = [_augend amount] + [_addend amount];
-    return [[Money alloc] initWithAmountAndCurrency:amount :to];
 }
 
 - (id)augend

@@ -10,6 +10,7 @@
 
 @interface Expression : NSObject
 
+//abstruct method
 - (id)reduce:(id)to;
 
 @end

@@ -8,14 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import "Money.h"
+#import "Expression.h"
 
-@interface Sum : NSObject {
+@interface Sum : Expression
+{
     Money *_augend;
     Money *_addend;
 }
 
 - (id)initWithAugendAndAddend:(id)augend :(id)addend;
-- (id)reduce:(id)to;
 - (id)augend;
 - (id)addend;
 
