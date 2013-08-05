@@ -7,6 +7,7 @@
 //
 
 #import "Money.h"
+#import "Expression.h"
 
 @implementation Money
 
@@ -42,7 +43,11 @@
     Money *money = object;
     return (_amount == [money amount]) && (_currency == [money currency]);
 }
-
+- (id)plus:(id)object
+{
+    Money *money = object;
+    return [[Money alloc] initWithAmountAndCurrency:_amount + [money amount] :_currency];
+}
 // abstruct method
 - (id)times:(int)multiplier{
     return [[Money alloc] initWithAmountAndCurrency:_amount * multiplier :_currency];

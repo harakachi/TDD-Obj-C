@@ -15,8 +15,9 @@
 }
 
 - (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
-- (int)amount;
 - (id)currency;
+- (id)plus:(id)object;
+- (int)amount;
 - (BOOL)equals:(id)object;
 
 + (id)dollar:(int)amount;
