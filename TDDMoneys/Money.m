@@ -8,16 +8,18 @@
 
 #import "Money.h"
 #import "Sum.h"
+#import "Bank.h"
 
 @implementation Money
 
 // Expression : override
-- (id)reduce:(id)to
+- (id)reduce:(Bank *)bank :(NSString *)to
 {
-    return self;
+    int rate = [bank rate:_currency :to];
+    return [[Money alloc] initWithAmountAndCurrency:(_amount / rate) :to];
 }
 
-- (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency
+- (Money *)initWithAmountAndCurrency:(int)amount :(NSString *)currency
 {
     self = [super init];
     if(self) {
@@ -27,15 +29,15 @@
     return self;
 }
 
-+ (id)dollar:(int)amount
++ (Money *)dollar:(int)amount
 {
     return [[Money alloc] initWithAmountAndCurrency:amount:@"USD"];
 }
-+ (id)franc:(int)amount
++ (Money *)franc:(int)amount
 {
     return [[Money alloc] initWithAmountAndCurrency:amount:@"CHF"];
 }
-- (id)currency
+- (NSString *)currency
 {
     return _currency;
 }
@@ -49,12 +51,12 @@
     Money *money = object;
     return (_amount == [money amount]) && (_currency == [money currency]);
 }
-- (id)plus:(id)addend
+- (Expression *)plus:(id)addend
 {
     return [[Sum alloc] initWithAugendAndAddend:self :addend];
 }
 // abstruct method
-- (id)times:(int)multiplier{
+- (Money *)times:(int)multiplier{
     return [[Money alloc] initWithAmountAndCurrency:_amount * multiplier :_currency];
 }
 

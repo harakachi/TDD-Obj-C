@@ -10,7 +10,8 @@
 
 @interface Bank : NSObject
 
-- (id)reduce:(id)source :(id)to;
-
+- (id)reduce:(id)source :(NSString *)to;
+- (int)rate:(NSString *)from :(NSString *)to;
+//- (void)addRate:(NSString *)from :(NSString *)to :int rate;
 @end
 

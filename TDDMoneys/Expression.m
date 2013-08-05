@@ -10,7 +10,7 @@
 
 @implementation Expression
 
-- (id)reduce:(id)to
+- (id)reduce:(Bank *)bank :(NSString *)to
 {
     return nil;
 }

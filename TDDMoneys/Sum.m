@@ -11,25 +11,25 @@
 @implementation Sum
 
 // Expression : override
-- (id)reduce:(id)to
+- (id)reduce:(Bank *)bank :(NSString *)to
 {
     int amount = [_augend amount] + [_addend amount];
     return [[Money alloc] initWithAmountAndCurrency:amount :to];
 }
 
-- (id)initWithAugendAndAddend:(id)augend :(id)addend
+- (Sum *)initWithAugendAndAddend:(id)augend :(id)addend
 {
     _augend = augend;
     _addend = addend;
     return self;
 }
 
-- (id)augend
+- (Money *)augend
 {
     return _augend;
 }
 
-- (id)addend
+- (Money *)addend
 {
     return _addend;
 }

@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Bank.h"
 
 @interface Expression : NSObject
 
 //abstruct method
-- (id)reduce:(id)to;
+- (id)reduce:(Bank *)bank :(NSString *)to;
 
 @end
