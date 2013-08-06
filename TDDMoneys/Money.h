@@ -17,12 +17,12 @@
 }
 
 - (Money *)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
-- (Expression *)times:(int)multiplier;
 
 - (NSString *)currency;
 - (int)amount;
 - (BOOL)equals:(id)object;
 
+- (Expression *)times:(int)multiplier;
 - (Expression *)plus:(Expression *)addend;
 
 + (Money *)dollar:(int)amount;

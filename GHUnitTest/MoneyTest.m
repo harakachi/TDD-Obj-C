@@ -16,8 +16,8 @@
 
 - (void) testEquality
 {
-    GHAssertTrue( [[Money dollar:5] equals:[Money dollar:5]], @"NG object");
-    GHAssertFalse([[Money dollar:5] equals:[Money dollar:6]], @"NG object");
+    GHAssertTrue( [[Money dollar:5] equals:[Money dollar:5]], nil);
+    GHAssertFalse([[Money dollar:5] equals:[Money dollar:6]], nil);
     GHAssertFalse([[Money franc:5] equals:[Money dollar:5]], nil);
 }
 - (void)testCurrency
@@ -86,6 +86,42 @@
     Money *result = [bank reduce:[fiveBucks plus:tenFrancs] :@"USD"];
     GHAssertTrue([[Money dollar:10] equals:result], nil);
 }
+
+- (void)testSumPlusMoney
+{
+    // 10franc = 5 dollar
+    
+    Expression *fiveBucks = [Money dollar:5];
+    Expression *tenFrancs = [Money franc:10];
+    Bank *bank = [[Bank alloc] init];
+    [bank addRate:@"CHF" :@"USD" :[NSNumber numberWithInt:2]];
+    
+    Expression *sum = [[[Sum alloc] initWithAugendAndAddend:fiveBucks :tenFrancs] plus:fiveBucks];
+    Money *result = [bank reduce:sum :@"USD"];
+    GHAssertTrue([[Money dollar:15] equals:result], nil);
+}
+
+- (void)testSumTimes
+{
+    // 10franc = 5 dollar
+    
+    Expression *fiveBucks = [Money dollar:5];
+    Expression *tenFrancs = [Money franc:10];
+    Bank *bank = [[Bank alloc] init];
+    [bank addRate:@"CHF" :@"USD" :[NSNumber numberWithInt:2]];
+    
+    Expression *sum = [[[Sum alloc] initWithAugendAndAddend:fiveBucks :tenFrancs] times:2];
+    Money *result = [bank reduce:sum :@"USD"];
+    GHAssertTrue([[Money dollar:20] equals:result], nil);
+}
+
+/*
+- (void)testPlusSameCurrencyReturnsMoney
+{
+    Expression *sum = [[Money dollar:1] plus:[Money dollar:1]];
+    GHAssertTrue([sum isKindOfClass:[Money class]], nil);
+}
+ */
 
 /*
 - (void)testDifferentClassEquality

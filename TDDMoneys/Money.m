@@ -13,7 +13,7 @@
 @implementation Money
 
 // Expression : override
-- (id)reduce:(Bank *)bank :(NSString *)to
+- (Money *)reduce:(Bank *)bank :(NSString *)to
 {
     int rate = [bank rate:_currency :to];
     return [[Money alloc] initWithAmountAndCurrency:(_amount / rate) :to];

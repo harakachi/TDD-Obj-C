@@ -19,4 +19,8 @@
 {
     return nil;
 }
+- (Expression *)times:(int)multiplier
+{
+    return nil;
+}
 @end

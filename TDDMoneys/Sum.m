@@ -12,7 +12,7 @@
 @implementation Sum
 
 // Expression : override
-- (id)reduce:(Bank *)bank :(NSString *)to
+- (Money *)reduce:(Bank *)bank :(NSString *)to
 {
     int amount = [[_augend reduce:bank :to] amount] +
                  [[_addend reduce:bank :to] amount];
@@ -40,6 +40,11 @@
 }
 - (Expression *)plus:(Expression *)addend
 {
-    return nil;
+    return [[Sum alloc] initWithAugendAndAddend:self :addend];
+}
+- (Expression *)times:(int)multiplier
+{
+    return [[Sum alloc] initWithAugendAndAddend:[_augend times:multiplier]
+                                               :[_addend times:multiplier]];
 }
 @end
