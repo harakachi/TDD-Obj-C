@@ -7,17 +7,19 @@
 //
 
 #import "Sum.h"
+#import "Money.h"
 
 @implementation Sum
 
 // Expression : override
 - (id)reduce:(Bank *)bank :(NSString *)to
 {
-    int amount = [_augend amount] + [_addend amount];
+    int amount = [[_augend reduce:bank :to] amount] +
+                 [[_addend reduce:bank :to] amount];
     return [[Money alloc] initWithAmountAndCurrency:amount :to];
 }
 
-- (Expression *)initWithAugendAndAddend:(id)augend :(id)addend
+- (Expression *)initWithAugendAndAddend:(Expression *)augend :(Expression *)addend
 {
     self = [super init];
     if(self) {
@@ -27,13 +29,17 @@
     return self;
 }
 
-- (Money *)augend
+- (Expression *)augend
 {
     return _augend;
 }
 
-- (Money *)addend
+- (Expression *)addend
 {
     return _addend;
+}
+- (Expression *)plus:(Expression *)addend
+{
+    return nil;
 }
 @end

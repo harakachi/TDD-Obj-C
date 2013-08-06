@@ -15,4 +15,8 @@
     return nil;
 }
 
+- (Expression *)plus:(Expression *)addend
+{
+    return nil;
+}
 @end

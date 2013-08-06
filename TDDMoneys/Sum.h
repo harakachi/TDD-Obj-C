@@ -7,17 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Money.h"
 #import "Expression.h"
+
 
 @interface Sum : Expression
 {
-    Money *_augend;
-    Money *_addend;
+    Expression *_augend;
+    Expression *_addend;
 }
 
-- (Expression *)initWithAugendAndAddend:(id)augend :(id)addend;
-- (Money *)augend;
-- (Money *)addend;
+- (Expression *)initWithAugendAndAddend:(Expression *)augend :(Expression *)addend;
+- (Expression *)augend;
+- (Expression *)addend;
+- (Expression *)plus:(Expression *)addend;
 
 @end

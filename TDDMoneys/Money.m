@@ -19,7 +19,7 @@
     return [[Money alloc] initWithAmountAndCurrency:(_amount / rate) :to];
 }
 
-- (Expression *)plus:(id)addend
+- (Expression *)plus:(Expression *)addend
 {
     return [[Sum alloc] initWithAugendAndAddend:self :addend];
 }
@@ -57,8 +57,7 @@
     return (_amount == [money amount]) && (_currency == [money currency]);
 }
 
-// abstruct method
-- (Money *)times:(int)multiplier{
+- (Expression *)times:(int)multiplier{
     return [[Money alloc] initWithAmountAndCurrency:_amount * multiplier :_currency];
 }
 

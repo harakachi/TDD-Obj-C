@@ -75,6 +75,17 @@
     GHAssertEquals([bank rate:@"USD" :@"USD"], 1, nil);
     GHAssertEquals([bank rate:@"CHF" :@"USD"], 2, nil);
 }
+- (void)testMixedAddition
+{
+    // 10franc = 5 dollar
+
+    Expression *fiveBucks = [Money dollar:5];
+    Expression *tenFrancs = [Money franc:10];
+    Bank *bank = [[Bank alloc] init];
+    [bank addRate:@"CHF" :@"USD" :[NSNumber numberWithInt:2]];
+    Money *result = [bank reduce:[fiveBucks plus:tenFrancs] :@"USD"];
+    GHAssertTrue([[Money dollar:10] equals:result], nil);
+}
 
 /*
 - (void)testDifferentClassEquality

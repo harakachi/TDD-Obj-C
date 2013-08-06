@@ -13,5 +13,6 @@
 
 //abstruct method
 - (id)reduce:(Bank *)bank :(NSString *)to;
+- (Expression *)plus:(Expression *)addend;
 
 @end
