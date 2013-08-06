@@ -28,6 +28,11 @@
 {
     return [[Money alloc] initWithAmountAndCurrency:amount :@"CHF"];
 }
+- (Money *)plus:(Money *)addend
+{
+    return [[Money alloc] initWithAmountAndCurrency:(_amount + [addend amount]) :_currency];
+}
+
 - (NSString *)currency
 {
     return _currency;

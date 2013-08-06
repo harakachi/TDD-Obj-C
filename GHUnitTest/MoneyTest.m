@@ -8,6 +8,7 @@
 
 #import "MoneyTest.h"
 #import "Money.h"
+#import "Bank.h"
 
 @implementation MoneyTest
 
@@ -22,6 +23,18 @@
     GHAssertEquals(@"USD", [[Money dollar:1] currency], nil);
     GHAssertEquals(@"CHF", [[Money  franc:1] currency], nil);
 }
+- (void)testSimpleAddition
+{
+    //Money *sum = [[Money dollar:5] plus:[Money dollar:5]];
+    //GHAssertTrue([[Money dollar:10] equals:sum], nil);
+    
+    Money *five = [Money dollar:5];
+    Expression *sum = [five plus:[Money dollar:5]];
+    Bank *bank = [[Bank alloc] init];
+    Money *reduced = [bank reduce:sum :@"USD"];
+    GHAssertTrue([[Money dollar:10] equals:reduced], nil);
+}
+
 /*
 - (void)testDifferentClassEquality
 {

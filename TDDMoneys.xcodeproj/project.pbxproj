@@ -24,6 +24,11 @@
 		7320C5B817A3ADCB002CCE41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7320C5B617A3ADCB002CCE41 /* InfoPlist.strings */; };
 		7320C5BB17A3ADCB002CCE41 /* TDDMoneysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5BA17A3ADCB002CCE41 /* TDDMoneysTests.m */; };
 		7320C5C617A3AE55002CCE41 /* DollarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320C5C517A3AE55002CCE41 /* DollarTest.m */; };
+		7326092E17B0D05000106F6E /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326092D17B0D05000106F6E /* Expression.m */; };
+		7326093117B0D0B500106F6E /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326093017B0D0B500106F6E /* Bank.m */; };
+		7326093217B0D0BB00106F6E /* MoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AED17A64C56005FA0F1 /* MoneyTest.m */; };
+		7326093317B0D13400106F6E /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326093017B0D0B500106F6E /* Bank.m */; };
+		7326093417B0D16200106F6E /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326092D17B0D05000106F6E /* Expression.m */; };
 		73688AD917A60200005FA0F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */; };
 		73688AEA17A6494A005FA0F1 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE917A6494A005FA0F1 /* Money.m */; };
 		73688AEB17A64990005FA0F1 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE917A6494A005FA0F1 /* Money.m */; };
@@ -75,6 +80,10 @@
 		7320C5BA17A3ADCB002CCE41 /* TDDMoneysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDMoneysTests.m; sourceTree = "<group>"; };
 		7320C5C417A3AE55002CCE41 /* DollarTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarTest.h; sourceTree = "<group>"; };
 		7320C5C517A3AE55002CCE41 /* DollarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarTest.m; sourceTree = "<group>"; };
+		7326092C17B0D05000106F6E /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		7326092D17B0D05000106F6E /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
+		7326092F17B0D0B500106F6E /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
+		7326093017B0D0B500106F6E /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
 		73688AE817A6494A005FA0F1 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
 		73688AE917A6494A005FA0F1 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
 		73688AEC17A64C56005FA0F1 /* MoneyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyTest.h; sourceTree = "<group>"; };
@@ -167,6 +176,10 @@
 		7320C58F17A3ADCA002CCE41 /* TDDMoneys */ = {
 			isa = PBXGroup;
 			children = (
+				7326092C17B0D05000106F6E /* Expression.h */,
+				7326092D17B0D05000106F6E /* Expression.m */,
+				7326092F17B0D0B500106F6E /* Bank.h */,
+				7326093017B0D0B500106F6E /* Bank.m */,
 				73688AE817A6494A005FA0F1 /* Money.h */,
 				73688AE917A6494A005FA0F1 /* Money.m */,
 				7320C59817A3ADCB002CCE41 /* AppDelegate.h */,
@@ -413,6 +426,9 @@
 				7320C59A17A3ADCB002CCE41 /* AppDelegate.m in Sources */,
 				7320C5A317A3ADCB002CCE41 /* ViewController.m in Sources */,
 				73688AEA17A6494A005FA0F1 /* Money.m in Sources */,
+				7326092E17B0D05000106F6E /* Expression.m in Sources */,
+				7326093117B0D0B500106F6E /* Bank.m in Sources */,
+				7326093217B0D0BB00106F6E /* MoneyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +448,8 @@
 				73796AFC17A5FF9500D2EE5A /* main.m in Sources */,
 				73688AEB17A64990005FA0F1 /* Money.m in Sources */,
 				73688AEE17A64C56005FA0F1 /* MoneyTest.m in Sources */,
+				7326093317B0D13400106F6E /* Bank.m in Sources */,
+				7326093417B0D16200106F6E /* Expression.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
