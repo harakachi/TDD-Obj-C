@@ -7,6 +7,7 @@
 //
 
 #import "Money.h"
+#import "Sum.h"
 
 @implementation Money
 
@@ -28,9 +29,13 @@
 {
     return [[Money alloc] initWithAmountAndCurrency:amount :@"CHF"];
 }
-- (Money *)plus:(Money *)addend
+- (Expression *)plus:(Money *)addend
 {
-    return [[Money alloc] initWithAmountAndCurrency:(_amount + [addend amount]) :_currency];
+    return [[Sum alloc] initWithAugendAndAddend:self :addend];
+}
+- (Money *)reduce:(NSString *)to
+{
+    return self;
 }
 
 - (NSString *)currency

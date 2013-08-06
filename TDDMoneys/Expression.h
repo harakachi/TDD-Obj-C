@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Money;
 
 @interface Expression : NSObject
+
+- (Money *)reduce:(NSString *)to;
 
 @end

@@ -43,7 +43,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8a90ba92d1b0b741^c4ccba92d1b0b741^---0#1#0#--18"Check dependencies36"BDD97EBE-B9E2-49B2-981C-BB58643122B5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies30a15e77e8b0b741^39d15e77e8b0b741^---0#1#0#--18"Check dependencies36"2B53D52A-E62B-45EF-BC37-28E9BE2C7F33-
 
 CCompileC /Users/harada/Desktop/work/TDD-Obj-C/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTest.build/Objects-normal/i386/Pods-GHUnitTest-dummy.o /Users/harada/Desktop/work/TDD-Obj-C/Pods/Pods-GHUnitTest-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s396755090.130380

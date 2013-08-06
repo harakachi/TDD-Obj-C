@@ -29,6 +29,8 @@
 		7326093217B0D0BB00106F6E /* MoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AED17A64C56005FA0F1 /* MoneyTest.m */; };
 		7326093317B0D13400106F6E /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326093017B0D0B500106F6E /* Bank.m */; };
 		7326093417B0D16200106F6E /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326092D17B0D05000106F6E /* Expression.m */; };
+		7326093717B0D97C00106F6E /* Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326093617B0D97C00106F6E /* Sum.m */; };
+		7326093817B0D97C00106F6E /* Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 7326093617B0D97C00106F6E /* Sum.m */; };
 		73688AD917A60200005FA0F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73796B0A17A5FFCE00D2EE5A /* QuartzCore.framework */; };
 		73688AEA17A6494A005FA0F1 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE917A6494A005FA0F1 /* Money.m */; };
 		73688AEB17A64990005FA0F1 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 73688AE917A6494A005FA0F1 /* Money.m */; };
@@ -84,6 +86,8 @@
 		7326092D17B0D05000106F6E /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
 		7326092F17B0D0B500106F6E /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
 		7326093017B0D0B500106F6E /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
+		7326093517B0D97C00106F6E /* Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sum.h; sourceTree = "<group>"; };
+		7326093617B0D97C00106F6E /* Sum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sum.m; sourceTree = "<group>"; };
 		73688AE817A6494A005FA0F1 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
 		73688AE917A6494A005FA0F1 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
 		73688AEC17A64C56005FA0F1 /* MoneyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyTest.h; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				7326093017B0D0B500106F6E /* Bank.m */,
 				73688AE817A6494A005FA0F1 /* Money.h */,
 				73688AE917A6494A005FA0F1 /* Money.m */,
+				7326093517B0D97C00106F6E /* Sum.h */,
+				7326093617B0D97C00106F6E /* Sum.m */,
 				7320C59817A3ADCB002CCE41 /* AppDelegate.h */,
 				7320C59917A3ADCB002CCE41 /* AppDelegate.m */,
 				7320C5A117A3ADCB002CCE41 /* ViewController.h */,
@@ -429,6 +435,7 @@
 				7326092E17B0D05000106F6E /* Expression.m in Sources */,
 				7326093117B0D0B500106F6E /* Bank.m in Sources */,
 				7326093217B0D0BB00106F6E /* MoneyTest.m in Sources */,
+				7326093717B0D97C00106F6E /* Sum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +457,7 @@
 				73688AEE17A64C56005FA0F1 /* MoneyTest.m in Sources */,
 				7326093317B0D13400106F6E /* Bank.m in Sources */,
 				7326093417B0D16200106F6E /* Expression.m in Sources */,
+				7326093817B0D97C00106F6E /* Sum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

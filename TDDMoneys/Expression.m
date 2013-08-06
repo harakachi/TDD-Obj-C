@@ -9,5 +9,9 @@
 #import "Expression.h"
 
 @implementation Expression
+- (Money *)reduce:(NSString *)to
+{
+    return nil;
+}
 
 @end

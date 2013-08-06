@@ -7,11 +7,12 @@
 //
 
 #import "Bank.h"
+#import "Sum.h"
 
 @implementation Bank
 
 - (Money *)reduce:(Expression *)source :(NSString *)to
 {
-    return [Money dollar:10];
+    return [source reduce:to];
 }
 @end
