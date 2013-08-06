@@ -14,16 +14,13 @@
     int       _amount;
 }
 
-- (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
+- (Money *)initWithAmountAndCurrency:(int)amount :(NSString *)currency;
+- (Money *)times:(int)multiplier;
 - (int)amount;
-- (id)currency;
+- (NSString *)currency;
 - (BOOL)equals:(id)object;
 
-+ (id)dollar:(int)amount;
-+ (id)franc:(int)amount;
-
-
-// abstruct method
-- (id)times:(int)multiplier;
++ (Money *)dollar:(int)amount;
++ (Money *)franc:(int)amount;
 
 @end

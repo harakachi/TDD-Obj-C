@@ -10,7 +10,7 @@
 
 @implementation Money
 
-- (id)initWithAmountAndCurrency:(int)amount :(NSString *)currency
+- (Money *)initWithAmountAndCurrency:(int)amount :(NSString *)currency
 {
     self = [super init];
     if(self) {
@@ -20,15 +20,15 @@
     return self;
 }
 
-+ (id)dollar:(int)amount
++ (Money *)dollar:(int)amount
 {
-    return [[Money alloc] initWithAmountAndCurrency:amount:@"USD"];
+    return [[Money alloc] initWithAmountAndCurrency:amount :@"USD"];
 }
-+ (id)franc:(int)amount
++ (Money *)franc:(int)amount
 {
-    return [[Money alloc] initWithAmountAndCurrency:amount:@"CHF"];
+    return [[Money alloc] initWithAmountAndCurrency:amount :@"CHF"];
 }
-- (id)currency
+- (NSString *)currency
 {
     return _currency;
 }
@@ -43,9 +43,8 @@
     return (_amount == [money amount]) && (_currency == [money currency]);
 }
 
-// abstruct method
-- (id)times:(int)multiplier{
-    return [[Money alloc] initWithAmountAndCurrency:_amount * multiplier :_currency];
+- (Money *)times:(int)multiplier{
+    return [[Money alloc] initWithAmountAndCurrency:(_amount * multiplier) :_currency];
 }
 
 @end
